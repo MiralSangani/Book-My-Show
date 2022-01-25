@@ -58,7 +58,7 @@ const HomePage = () => {
                     <PSliders images={nowPlayingMovies} />
                 </div>
                 <div className="container mx-auto px-32 mt-20">
-                    <img className="container" src="https://in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/lead-in-v3-collection-202102040828.png"></img>
+                    <img className="container" src="https://in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/lead-in-v3-collection-202102040828.png" alt="hero carousal images"></img>
 
                     <h1 className="text-2xl font-bold text-gray-800 my-3 mt-20">
                         The best of Entertainment

@@ -6,8 +6,8 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const launchRazorPay = () => {
     let options = {
-        key: "ur api id",
-        amount: 1000,
+        key: "rzp_test_RDlbyFdjBg40Du",
+        amount: 10000,
         currency: "INR",
         name: "Book My Show Clone",
         description: "Movie Purchase",
@@ -25,13 +25,13 @@ const HeroMovie = () => {
         <>
             <div className="relative" style={{ height: "35rem" }}>
                 <div className="absolute pl-64" >
-                    <img className="ml-36" style={{ height: "35rem" }} src=" https://in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/spider-man-no-way-home-et00310790-07-12-2021-07-25-42.jpg"></img>
+                    <img className="ml-36" style={{ height: "35rem" }} src=" https://in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/spider-man-no-way-home-et00310790-07-12-2021-07-25-42.jpg" alt="hero movie images"></img>
                 </div>
                 <div className="absolute h-full w-full z-10"
                     style={{ backgroundImage: "linear-gradient(90deg, rgb(34, 34, 34) 24.97%, rgb(34, 34, 34) 38.3%, rgba(34, 34, 34, 0.04) 97.47%, rgb(34, 34, 34) 100%)" }}
                 />
                 <div className="absolute flex flex-col-md-9 mx-11 my-14 ml-40 rounded-xl bg-black z-30" style={{ height: "405px" }}>
-                    <img className="rounded-xl h-96 w-full" src="https://in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/spider-man-no-way-home-et00310790-07-12-2021-07-25-42.jpg"></img>
+                    <img className="rounded-xl h-96 w-full" src="https://in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/spider-man-no-way-home-et00310790-07-12-2021-07-25-42.jpg" alt="hero movie images"></img>
 
                 </div>
 

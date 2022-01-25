@@ -2,14 +2,14 @@
 import React from "react";
 import Slider from "react-slick";
 
-import PosterSlider from "../PosterSlider/PosterSlider.component";
+import PeopleSlider from "./CastCrewSlider.component";
 
-const PSliders = (props) => {
+const PeopleSliders = (props) => {
     const settings = {
         infinity: true,
-        slidesToShow: 5,
+        slidesToShow: 6,
         slidesToScroll: 2,
-        autoplay: false,
+        autoplay: true,
         InitialSlide: 0
     };
     return (
@@ -17,7 +17,7 @@ const PSliders = (props) => {
 
             <Slider {...settings}>
                 {props.images.map((image) => (
-                    <PosterSlider {...image} isLight={props.isLight} />
+                    <PeopleSlider {...image} isLight={props.isLight} />
                 ))}
             </Slider>
 
@@ -25,4 +25,4 @@ const PSliders = (props) => {
     );
 };
 
-export default PSliders;
+export default PeopleSliders;
